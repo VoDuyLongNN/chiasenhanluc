@@ -1,0 +1,235 @@
+/* treding job */
+
+.trending-job {
+    /* background-color: var(--main-color); */
+    padding: 50px 100px;
+}
+
+.trending-job .contain {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.trending-job__title {
+    color: var(--main-color);
+    padding-bottom: 30px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.treding-job__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+}
+
+.treding-job__post {
+    max-width: 435px;
+    border: 1px solid rgb(218 218 218);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 5px;
+    border-radius: 20px;
+    color: #808080;
+    transition: all 0.3s linear;
+    margin-bottom: 30px;
+}
+
+.treding-job__post:hover {
+    box-shadow: 5px 5px 10px #ccc;
+}
+
+.treding-job__post .post-btn:hover {
+    background-color: var(--main-color);
+    color: var(--white-color);
+    transition: all 0.3s linear;
+}
+
+.treding-job__post-header {
+    padding: 10px 0px;
+    display: flex;
+}
+
+.treding-job__post-header .header__left {
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid var(--grey--color); */
+    border-radius: 50px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.treding-job__post-header .header__right {
+    display: block !important;
+}
+
+.treding-job__post-header .company-avt {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* .treding-job__post:hover .company-name,
+.treding-job__post:hover .treding-job__post-contain .post-title{
+   color: var(--white-color);
+} */
+
+.treding-job__post-header .company-name {
+    font-weight: bold;
+    padding: 5px 0;
+    color: var(--main-color);
+    /* font-size: 25px; */
+}
+
+.treding-job__post .header__city {
+    padding-top: 10px;
+}
+
+.treding-job__post .header__city p {
+    padding-left: 5px;
+    display: inline;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.treding-job__post-contain .post-title {
+    padding: 15px 0px;
+    font-size: 25px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: var(--main-color);
+}
+
+.treding-job__post-contain .post-desc {
+    margin-bottom: 20px;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    display: -webkit-box;
+}
+
+.treding-job__post-contain .post-requirement {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.treding-job__post-bottom {
+    text-align: right;
+    margin-top: auto;
+}
+
+.treding-job__post-bottom button {
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    /* background-color: #4d4d4d; */
+    margin-top: 20px;
+    color: var(--grey-color);
+    cursor: pointer;
+}
+
+
+/* top-fields */
+
+.top-fields {
+    padding: 30px 200px;
+}
+
+.top-fields__title {
+    font-size: 25px;
+    color: var(--main-color);
+    font-weight: bold;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.top-fileds__contain {
+    margin: 0 auto;
+    display: flex;
+}
+
+.top-fields__item {
+    display: flex !important;
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid rgb(218 218 218);
+    width: 350px;
+    cursor: pointer;
+    transition: all 0.4s linear;
+    border-radius: 10px;
+    margin: 0 17px;
+}
+
+
+/* .top-fields__item:hover{
+   background-color: var(--main-color);
+} */
+
+.top-fields__item-icon {
+    padding: 5px;
+    min-width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    font-size: 20px;
+    color: var(--white-color);
+}
+
+.top-fields__item-info {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    max-width: 250px;
+}
+
+.top-fields__item-name {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+}
+
+.top-fields__item-name p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.top-fields__item-amountwork {
+    font-size: 13px;
+    color: #262626;
+}
+
+.top-fields__arrow {
+    width: 40px !important;
+    height: 40px !important;
+    background-color: transparent;
+    font-size: 35px;
+    color: var(--main-color);
+}
+
+.top-fields__arrow:hover {
+    background-color: transparent !important;
+    color: var(--main-color) !important;
+}
+
+.top-fields__slick-prev {
+    left: 0;
+}
+
+.top-fields__slick-next {
+    right: 0 !important;
+}
