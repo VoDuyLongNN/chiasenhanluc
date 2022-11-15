@@ -1,6 +1,8 @@
 <footer>
     <div class="footer__top">
-        <div class="footer__logo">LOGO</div>
+        <div class="footer__logo">
+            <a href="Home"><img class="footer__logo-img" src="public/images/Avatar/logo.png" alt=""></a>
+        </div>
         <div class="footer__slogan">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum temporibus eos
             mollitia
             magni explicabo cum esse. Vel necessitatibus, voluptate reiciendis in error totam debitis quia veniam

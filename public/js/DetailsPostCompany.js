@@ -57,7 +57,6 @@ fetch(api)
                     if (document.querySelector('.post__disabled'))
                         interested.classList.remove('post__disabled');
                 }
-
                 return 0;
             }
         });

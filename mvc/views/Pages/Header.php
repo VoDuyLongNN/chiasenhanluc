@@ -1,6 +1,8 @@
 <header>
     <nav class="header__nav">
-        <div class="header__logo">LOGO</div>
+        <div class="header__logo">
+            <a href="Home"><img class="header__logo-img" src="public/images/Avatar/logo.png" alt=""></a>
+        </div>
         <div class="header__right">
             <ul class="header__catelogy">
                 <li class="header__catelogy-item"><i class="fa-solid fa-bell"></i></li>
