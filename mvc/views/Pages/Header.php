@@ -47,6 +47,11 @@
                                     <a class="user-menu__list-item-link">Công việc quan tâm</a>
                                 </li>
 
+                                <li class="user-menu__list-item user-menu__list-item--WorkInterested">
+                                    <i class="fa-solid fa-clipboard-list"></i>
+                                    <a class="user-menu__list-item-link">Yêu cầu tuyển dụng</a>
+                                </li>
+
                                 <li class="user-menu__list-item user-menu__list-item-logout">
                                     <i class="fa-solid fa-right-to-bracket"></i>
                                     <a class="user-menu__list-item-link">Đăng Xuất</a>
